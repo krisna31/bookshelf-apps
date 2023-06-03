@@ -76,7 +76,7 @@ function renderBooks(paramsBooks) {
     bookList += `<article class="book_item">
                   <h3>${book.bookTitle}</h3>
                   <p>Penulis: ${book.bookAuthor}</p>
-                  <p>Tahun: ${book.bookAuthor}</p>
+                  <p>Tahun: ${book.bookYear}</p>
 
                   <div class="action">
                     <button class="green" onclick=toggleIsComplete(${book.id})>${book.bookIsComplete ? "Selesai dibaca" : "Belum Selesai dibaca"}</button>
